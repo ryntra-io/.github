@@ -24,7 +24,7 @@ Both are proprietary and are not in this organization.
 
 | Repository | What it is | Licence |
 |---|---|---|
-| [ryntra-arc-evidence](https://github.com/ryntra-io/ryntra-arc-evidence) | Decision and settlement evidence on Arc Public Testnet: typed kernel, OpenAPI contract, SDK, HTTP reference implementation and offline receipt verification. | Apache-2.0 |
+| [ryntra-arc-evidence](https://github.com/ryntra-io/ryntra-arc-evidence) | Decision and settlement evidence for programmable money: the typed kernel, the OpenAPI contract, a headless SDK and offline receipt verification. | Apache-2.0 |
 | [ryntra-agent-control](https://github.com/ryntra-io/ryntra-agent-control) | Read-only SDK, local MCP server, OpenAPI contract and a runnable reference flow for Agent Control. | Apache-2.0 |
 | [ryntra-solana-evidence](https://github.com/ryntra-io/ryntra-solana-evidence) | Read-only Solana evidence kit: Token-2022 asset passports, transfer preflight against a declared owner policy, offline receipt verification, published JSON Schemas, SDK, MCP server and CLI. | Apache-2.0 |
 
