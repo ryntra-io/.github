@@ -1,61 +1,49 @@
 # Ryntra
 
-**A non-custodial Risk, Strategy & Evidence OS for programmable assets.**
+A Solana-first product for financial actions governed by user-defined rules.
 
-Ryntra turns an intended economic action into checkable evidence: what was
-proposed, what the evidence supported, what a human authorized, and what the
-network actually did — kept as four separate facts rather than one confident
-summary.
+Non-custodial. Human-authorized. No profit promises.
 
-[ryntra.io](https://ryntra.io)
+[Application](https://ryntra.io/app) · [Documentation](https://ryntra.io/docs) ·
+[Website](https://ryntra.io)
 
----
+## Open-source developer tools
 
-## The products
+Start with the **[Solana Evidence Kit](https://github.com/ryntra-io/ryntra-solana-evidence)**:
+inspect SPL and Token-2022 mints, evaluate transfer preflights against a declared
+policy, and verify supplied receipts offline. It includes a typed SDK, a local
+MCP server, a CLI, JSON Schemas and reproducible tests.
 
-| | |
+[Source and quick start](https://github.com/ryntra-io/ryntra-solana-evidence) ·
+[Automated checks](https://github.com/ryntra-io/ryntra-solana-evidence/actions)
+
+| Repository | Scope |
 |---|---|
-| **Ryntra Home** | The human-facing workspace: research, monitoring, planning and a journal over one evidence kernel. |
-| **Agent Control** | Operator control for agents that spend: proposals, policy, authorization and receipts, with the signature always outside the agent. |
+| [Solana Evidence Kit](https://github.com/ryntra-io/ryntra-solana-evidence) | Read-only mint inspection, structural transfer preflight and offline receipt verification |
+| [Agent Control Developer Kit](https://github.com/ryntra-io/ryntra-agent-control) | Read-only client, MCP server, API contract and non-executing reference examples |
+| [Arc Evidence Kit](https://github.com/ryntra-io/ryntra-arc-evidence) | Typed evidence contracts, headless SDK and offline receipt-verification examples |
 
-Both are proprietary and are not in this organization.
+These are separately versioned developer tools within one Ryntra product.
+Repository availability does not imply that every adapter or capability is
+available in the application. Each repository documents its own runnable scope
+and limitations.
 
-## What is public here
+## Boundaries
 
-| Repository | What it is | Licence |
-|---|---|---|
-| [ryntra-arc-evidence](https://github.com/ryntra-io/ryntra-arc-evidence) | Decision and settlement evidence for programmable money: the typed kernel, the OpenAPI contract, a headless SDK and offline receipt verification. | Apache-2.0 |
-| [ryntra-agent-control](https://github.com/ryntra-io/ryntra-agent-control) | Read-only SDK, local MCP server, OpenAPI contract and a runnable reference flow for Agent Control. | Apache-2.0 |
-| [ryntra-solana-evidence](https://github.com/ryntra-io/ryntra-solana-evidence) | Read-only Solana evidence kit: Token-2022 asset passports, transfer preflight against a declared owner policy, offline receipt verification, published JSON Schemas, SDK, MCP server and CLI. | Apache-2.0 |
+The kits do not hold private keys or sign transactions. Evidence, policy,
+authorization, execution and settlement are separate facts; an integrity check
+alone does not establish authorization or on-chain settlement. Read the
+repository-specific security guidance before integrating. No independent audit
+or npm-registry package publication is claimed.
 
-These are deliberate, bounded surfaces: types, contracts, interfaces, examples,
-fixtures and tests that a developer can read and run. Each one is built from an
-explicit publication allowlist rather than by copying a folder.
+Selected developer interfaces and evidence tooling are open source. The Ryntra
+product remains proprietary. Included source is licensed under Apache-2.0; the
+hosted application and operational infrastructure are separate.
 
-**Selected developer interfaces and evidence tooling are open source. The Ryntra
-product remains proprietary.** The production application, its infrastructure,
-its risk and policy logic, its strategies and its provider adapters are
-maintained privately and are not published here.
+## Security and maintainer
 
-## What the code will not do
+Read SECURITY.md in the affected repository before reporting a vulnerability.
+[Solana security policy](https://github.com/ryntra-io/ryntra-solana-evidence/blob/main/SECURITY.md).
+Never send seed phrases, private keys or signing requests.
 
-Ryntra holds no keys, signs nothing and moves no funds. Reads are bounded to
-fixed provider origins and fail closed rather than guessing. A passing integrity
-check proves that a document is internally consistent — never that an action was
-authorized, executed or settled.
-
-None of this code is audited, none of it is production-ready, and nothing here
-is a hosted service. No package is published to a registry.
-
-## Security
-
-Report vulnerabilities through the affected repository's private GitHub Security
-Advisory flow, and read its `SECURITY.md` first — each one states the exact
-boundaries a report should say whether it crosses. Never send a seed phrase,
-private key or signing request; no repository here has a code path that would
-accept one.
-
-## Maintainer
-
-Built by **Dmytro Plavutskyi** ([@plavutskyi](https://github.com/plavutskyi)) ·
-[ryntra.io](https://ryntra.io)
+Maintained by **Dmytro Plavutskyi** ([@plavutskyi](https://github.com/plavutskyi)).
