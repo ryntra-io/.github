@@ -6,8 +6,8 @@ Non-custodial. Human-authorized. No profit promises.
 
 ## Ryntra — tokenized stocks on Solana
 
-Invest in tokenized stocks from $1, in your own wallet, on Solana. Buy a piece
-of a company in dollars, or set Autoinvest by your own rule.
+Invest in tokenized stocks from $1, in your own wallet, on Solana. Choose a
+dollar amount to invest, or set Autoinvest by your own rule.
 
 [Application](https://ryntra.io/app) · [Documentation](https://ryntra.io/docs) ·
 [Website](https://ryntra.io)
