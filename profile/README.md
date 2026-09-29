@@ -16,7 +16,7 @@ The **[Solana Evidence Kit](https://github.com/ryntra-io/ryntra-solana-evidence)
 is the open-source developer toolkit behind it: read-only TypeScript tools for
 tokenized stocks and other Token-2022 assets — see what a mint lets its issuer
 do, preflight a transfer against your own policy and verify a receipt offline.
-[Try it in 30 seconds](https://github.com/ryntra-io/ryntra-solana-evidence#try-it-in-30-seconds) ·
+[Quick start](https://github.com/ryntra-io/ryntra-solana-evidence#try-it-in-30-seconds) ·
 [Build log](https://github.com/ryntra-io/ryntra-solana-evidence/blob/main/BUILDLOG.md) ·
 [Releases](https://github.com/ryntra-io/ryntra-solana-evidence/releases)
 
