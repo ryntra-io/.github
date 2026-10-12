@@ -1,28 +1,28 @@
 # Ryntra
 
-**Launch once. The market keeps working.**
+**Trade, launch and run your money.**
 
-One app for onchain markets, built around your own wallet. Ryntra prepares
-every action and shows it before you sign, your wallet signs it, and the chain
-proves it. Non-custodial. Human-authorized. No profit promises.
+Markets, trading and treasury, for people and their agents. Ryntra prepares
+every action and shows it in a Review before you sign — what leaves, what
+arrives and every fee. Your own wallet signs, and every action ends with a
+receipt. Non-custodial. No profit promises.
 
 ## Ryntra on Solana — [ryntra.io](https://ryntra.io)
 
-- **Launch** — a token in one signature on Meteora's bonding curve, with
-  fair-launch rules, a creator lock and fee sharing fixed before launch.
-- **Markets on Ryntra** — every market launched on Ryntra on one public page,
-  with each market's health and a flight log of what happened and why.
-- **Trade** — swap and spot on Solana tokens through Jupiter, and tokenized
-  stocks from $1.
+- **Launch** — a token in one signature on a Meteora Dynamic Bonding Curve,
+  with fair-launch rules, a creator lock and fee sharing fixed before launch.
+- **Market Engine** — when the curve fills, the market moves to a DAMM v2 pool,
+  and Ryntra's executor builds a DLMM liquidity ladder paid from the market's
+  own fees. Holders can join the pool. Every step is in the market's public
+  flight log, and every market launched on Ryntra is on one page with its
+  health.
+- **Trade** — coins, memes and tokenized stocks in one list: swap and spot
+  through Jupiter, quick buy and sell, and a token page with its holders, its
+  trades and its risk facts.
 - **Recurring buys and rewards** — buy by your own rule and sign every
-  purchase; cashback and friend invites.
+  purchase; ranks and friend invites.
 
-The launch is the first step, and it is live. The market engine that runs a
-market after it graduates — a liquidity ladder funded by the market's own fees
-and a holder autopilot that sends fees only to the holder's own wallet — is
-built and tested, and opens to people after its first full mainnet cycle.
-
-The same Ryntra is an Android app in the **Solana dApp Store**: swap, markets,
+The same Ryntra is an Android app in the **Solana dApp Store**: markets, trading,
 portfolio and a token launch from the phone, signed in the Seeker's Seed Vault.
 
 [Application](https://ryntra.io/app) · [Documentation](https://ryntra.io/docs) ·
@@ -30,9 +30,10 @@ portfolio and a token launch from the phone, signed in the Seeker's Seed Vault.
 
 ## Ryntra on Arc — [arc.ryntra.io](https://arc.ryntra.io)
 
-Dollar money on Circle's chain: send and receive USDC with a payment link,
-swap any Arc token, spot with a live chart, bridge USDC in from other chains
-and pay out a team — every operation with a receipt anyone can verify.
+Dollar money on Circle's chain: send and receive USDC with a payment link, swap
+any Arc token, spot with a live chart, perps on Hyperliquid from a trading
+terminal, bridge USDC in from other chains and pay out a team — every operation
+with a receipt anyone can verify.
 
 ## Open source
 
@@ -46,14 +47,15 @@ and pay out a team — every operation with a receipt anyone can verify.
 - **[ryntra-arc](https://github.com/ryntra-io/ryntra-arc)** — check a Ryntra
   receipt on Arc yourself: the schema, its seals and the operation read back
   from the chain.
+  [Build log](https://github.com/ryntra-io/ryntra-arc/blob/main/BUILDLOG.md) ·
   [Releases](https://github.com/ryntra-io/ryntra-arc/releases)
 
-The product's own code is private. Partners and investors can ask for
+The product's own code is private. Partners and reviewers can ask for
 read-only access to a snapshot of it.
 
 ## Boundaries
 
-Ryntra never holds a private key or signs on anyone's behalf. Evidence,
+Ryntra never holds your private key or signs on your behalf. Evidence,
 policy, authorization, execution and settlement are separate facts; an
 integrity check alone does not establish authorization or on-chain settlement.
 The open-source tools are Apache-2.0 and read-only; the hosted applications and
