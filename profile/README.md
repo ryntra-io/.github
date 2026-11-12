@@ -1,47 +1,38 @@
-# Ryntra
+<p align="center">
+  <a href="https://ryntra.io"><img src="assets/hero.jpg" alt="Ryntra — Say it. Your agent does the rest." width="100%"></a>
+</p>
 
-**Say it. Your agent does the rest.**
+<h3 align="center">Your AI agent on Solana. It launches coins and trades for you —<br>and the whole market is a living 3D city.</h3>
 
-Ryntra is your AI agent on Solana. Tell it "launch me a coin" or "trade BONK
-with 0.1 SOL a day", sign a budget once in your own wallet, and it does the
-work: it launches the coin, buys and sells inside your limits, and puts idle
-dollars to work. The whole Solana market is a living 3D city — every coin is a
-tower, and yours rises as people buy.
+<p align="center">
+  <a href="https://ryntra.io"><b>ryntra.io</b></a> ·
+  <a href="https://github.com/ryntra-io/ryntra-solana"><b>Source code</b></a> ·
+  <a href="https://x.com/Ryntra_io"><b>@Ryntra_io</b></a> ·
+  <b>Android in the Solana dApp Store</b>
+</p>
 
-Live on Solana mainnet at **[ryntra.io](https://ryntra.io)**, on desktop and
-phone, and as an Android app in the **Solana dApp Store**.
+---
 
-![Ryntra City](https://ryntra.io/city/share-scene.jpg)
+Tell your agent *“launch me a coin”* or *“trade BONK with 0.1 SOL a day”*, sign its budget once in your own wallet,
+and it does the rest: launches the coin, buys and sells inside your limits, puts idle dollars to work and reports back
+every day. Every coin on Solana is a tower in the city, and yours rises live as people buy.
 
-## What runs today
+**Live on Solana mainnet** — your agent, launches on Meteora, trading through Jupiter, Earn and partner payouts — on
+the web, on any phone and as an Android app.
 
-- **Your agent** — one sentence becomes a plan: steady buys, dips, grids or new
-  launches, take-profit and stop. Practise on paper first, then sign the budget
-  once; the agent works inside a Squads Smart Account policy you can stop at any
-  time, and reports back every day.
-- **Launch** — a coin in one signature on a Meteora Dynamic Bonding Curve; when
-  the curve fills it graduates into a DAMM v2 pool, with DLMM liquidity behind it.
-- **Trade** — tap a tower and buy or sell through Jupiter; limits and stops.
-- **Earn** — put USDC or SOL to work in one signature (Jupiter Lend), or join
-  Meteora pools at the Piers.
-- **Partners** — bring people and earn a share of Ryntra's fee, paid weekly in USDC.
+<p align="center"><img src="assets/phones.jpg" alt="Ryntra on Android: the city, your agent, trade and launch" width="100%"></p>
 
-Keys stay with you: every transaction is shown in your wallet and signed there.
+## Repositories
 
-## Open source
-
-- **[ryntra-solana-evidence](https://github.com/ryntra-io/ryntra-solana-evidence)** —
-  Apache-2.0 TypeScript tools Ryntra runs on: see what a token's issuer can do,
-  preflight a transfer against your own rules. SDK, MCP server and CLI.
-
-The product's own code is private; hackathon judges and partners get read-only
-access to a snapshot of it.
+| | |
+|---|---|
+| **[ryntra-solana](https://github.com/ryntra-io/ryntra-solana)** | The product: Ryntra City, the engine behind it and the Android app — the source, open to read |
+| **[ryntra-solana-evidence](https://github.com/ryntra-io/ryntra-solana-evidence)** | Open-source TypeScript kit for Solana tokens: SDK, MCP server and CLI (Apache-2.0) |
 
 ## Contact
 
 [hello@ryntra.io](mailto:hello@ryntra.io) · [@Ryntra_io on X](https://x.com/Ryntra_io)
 
-Security reports: read the repository's `SECURITY.md` first. Never send seed
-phrases, private keys or signing requests.
+Security reports: see the repository's `SECURITY.md`. Never send seed phrases, private keys or signing requests.
 
-Maintained by **Dmytro Plavutskyi** ([@plavutskyi](https://github.com/plavutskyi)).
+Built by **Dmytro Plavutskyi** ([@plavutskyi](https://github.com/plavutskyi)).
