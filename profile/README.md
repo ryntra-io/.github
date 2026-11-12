@@ -24,7 +24,7 @@ the web, on any phone and as an Android app.
 
 ## Repositories
 
-| | |
+| Repository | What it is |
 |---|---|
 | **[ryntra-solana](https://github.com/ryntra-io/ryntra-solana)** | The product: Ryntra City, the engine behind it and the Android app — the source, open to read |
 | **[ryntra-solana-evidence](https://github.com/ryntra-io/ryntra-solana-evidence)** | Open-source TypeScript kit for Solana tokens: SDK, MCP server and CLI (Apache-2.0) |
