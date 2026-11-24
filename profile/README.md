@@ -16,9 +16,10 @@
 
 ---
 
-Tell your agent *“trade JUP every day”* or *“launch me a token”*, sign its budget once in your own wallet, and it
-does the work inside limits that live on-chain. Swap and bridge, spot with limit orders, bots, Earn and launches — on
-the web, on any phone and as an Android app.
+Tell your agent *“trade JUP every day”*, *“copy this wallet”* or *“launch me a token”*, sign its budget once in your own
+wallet, and it does the work inside limits that live on-chain: it buys by its plan and sells on its own at your stop,
+the money landing only in your wallet. Swap and bridge, spot with limit orders, bots that trade on your budget — a grid,
+copying a wallet — Earn on any coin's page, and launches — on the web, on any phone and as an Android app.
 
 **Live on Solana mainnet, Meteora DLMM Pro included:** positions of many ranges in a shape you can paint, limit orders with a maker bonus, a
 grid on those orders and launches straight into a pool — each signed in your own wallet.
